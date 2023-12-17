@@ -1,5 +1,3 @@
-import { GameViewport } from './index'
-
 const ken = document.querySelector('img[alt="ken"]');
 
 const position = {
@@ -17,6 +15,7 @@ export function updateKen(context) {
     }
 
 }
+
 export function drawKen(context) {
     context.drawImage(ken, position.x, position.y);
 }
